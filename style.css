@@ -1,0 +1,203 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.image img {
+  height: 500px;
+}
+body {
+  background: #000;
+  color: #fff;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  text-align: center;
+}
+
+/* Frame */
+.frame {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Slideshow */
+.slideshow {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  margin: 50px 0;
+}
+
+.slideshow-track {
+  display: flex;
+  gap: 20px;
+  animation: scroll 15s linear infinite;
+}
+
+.slideshow img {
+  width: auto;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 2.5%;
+}
+
+.logo {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.logo-track {
+  display: flex;
+  gap: 20px;
+  animation: scroll 15s linear infinite;
+  margin-left: 15%;
+}
+
+.logo img {
+  width: auto;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 2%;
+  border: 5px solid #8167f5;
+  
+}
+
+.poster {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  margin: 50px 0;
+  
+}
+
+.poster-track {
+  display: flex;
+  gap: 20px;
+  animation: scroll 15s linear infinite;
+  margin-left: 25%;
+}
+
+.poster img {
+  width: auto;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 5%;
+  border: 5px solid #f7f6f6;
+}
+
+/* Keyframes for smooth scrolling */
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-30%);
+  }
+}
+.jagdeep {
+  margin-top: 1.5%;
+  font-size: 50px;
+  text-decoration:underline; 
+}
+
+.GRAPHIC {
+  margin-top:-8cm;
+  font-size: 150px;
+  text-align: center;
+
+}
+.DESIGNER {
+  font-size: 150px;
+  text-align: center;
+
+}
+
+/* About Section */
+.about-me {
+  max-width: 1100px;
+  margin-top: 5%;
+  margin-left: 40%;
+  margin-bottom: 5%; 
+}
+.heading-2-about-me {
+  font-size: 70px;
+  font-weight: 700;
+  text-align:left;
+  margin-bottom: 5%;
+  margin-left: 3%;
+  text-decoration:underline;  
+}
+.about-text {
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: left;  
+}
+.mywork
+{
+  font-size: 70px;
+  font-weight: 700;
+  text-align:left;
+  margin-bottom: 3%;
+  margin-left: 40%;
+  text-decoration:underline; 
+}
+.worknumber1
+{
+  
+  font-size: 38px;
+  margin-left: 41%;
+  text-align: left;
+}
+.worknumber2
+{
+  max-width: 800px;
+  font-size: 38px;
+  margin-left: 41%;
+  text-align: left;
+  margin-bottom: 1%;
+}
+.worknumber3
+{
+  max-width: 800px;
+  font-size: 38px;
+  margin-left: 41%;
+  text-align: left;
+}
+
+.contact{
+  font-size: 80px; 
+}
+.confuse{
+  font-size: 45px; 
+}
+
+a {
+  color: #eff1f2;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#39bccd; 
+  text-decoration:underline; 
+  cursor:pointer;  
+}
+/* Footer */
+.created-by-jagdeep-singh {
+  margin-top: 20px;
+  font-size: 14px;
+  opacity: 0.8;
+}
